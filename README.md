@@ -10,7 +10,7 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository**
    open git bash and type this command:
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/ChauhanOO7/MugsAssignment.git
 
 2.  Navigate to repository:
     cd your-repository-name
