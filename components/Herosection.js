@@ -21,10 +21,10 @@ const HeroSection = () => (
       />
       <div className={styles.overlay}></div>
       <div className={styles.socialIcons}>
-        <Link href="#"><img src="/images/facebook.png" alt="Facebook" /></Link>
-        <Link href="#"><img src="/images/twitter.png" alt="Twitter" /></Link>
-        <Link href="#"><img src="/images/instagram.png" alt="Instagram" /></Link>
-        <Link href="#"><img src="/images/linkedin.png" alt="LinkedIn" /></Link>
+        <Link href="#"><Image src="/images/facebook.png" alt="Facebook" width={32} height={32}/></Link>
+        <Link href="#"><Image src="/images/twitter.png" alt="Twitter" width={32} height={32}/></Link>
+        <Link href="#"><Image src="/images/instagram.png" alt="Instagram" width={32} height={32}/></Link>
+        <Link href="#"><Image src="/images/linkedin.png" alt="LinkedIn" width={32} height={32}/></Link>
       </div>
     </div>
   </section>

@@ -15,10 +15,10 @@ const Footer = () => (
         <li><Link href="/contact">Contact</Link></li>
       </ul>
       <div className={styles.socialIcons}>
-        <Link href="#"><Image src="/images/facebook.png" alt="Facebook" /></Link>
-        <Link href="#"><Image src="/images/twitter.png" alt="Twitter" /></Link>
-        <Link href="#"><Image src="/images/instagram.png" alt="Instagram" /></Link>
-        <Link href="#"><Image src="/images/linkedin.png" alt="LinkedIn" /></Link>
+        <Link href="#"><Image src="/images/facebook.png" alt="Facebook" width={32} height={32}/></Link>
+        <Link href="#"><Image src="/images/twitter.png" alt="Twitter" width={32} height={32}/></Link>
+        <Link href="#"><Image src="/images/instagram.png" alt="Instagram" width={32} height={32}/></Link>
+        <Link href="#"><Image src="/images/linkedin.png" alt="LinkedIn" width={32} height={32}/></Link>
       </div>
     </div>
     <p className={styles.copyright}>

@@ -55,10 +55,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
-    margin-left: 12rem;
+    margin-left: 3.8rem;
     margin-top: 1rem;
-    width: 32px;
-    height: 32px;
   }
 
   .socialIcons > a{
