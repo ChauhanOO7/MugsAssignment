@@ -1,0 +1,105 @@
+   .testimonialsContainer {
+    background-color: #1a1a1a;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+
+  .testimonialsContainer > p{
+    color:#FFFFFF;
+    font-size: 21px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    background-color: #fff;
+    color: #000;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+  }
+  
+  .testimonialContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .testimonialContent > div{
+    margin-left: 2rem;
+
+  }
+  
+  .image {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .position {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .prevButton, .nextButton {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 2rem;
+  }
+  
+  .prevButton:hover, .nextButton:hover {
+    background-color: #ff8000;
+  }
+  
+  .prevButton {
+    margin-left: 20px;
+  }
+  
+  .nextButton {
+    margin-right: 100px;
+  }
+  

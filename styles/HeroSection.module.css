@@ -1,0 +1,82 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    padding-left: 240px;
+    padding-right: 240px;
+    background-color: #1a1a1a;
+    color: #ffffff; 
+  }
+  
+  .content {
+    max-width: 600px;
+    padding-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #f90;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 55px;
+    left: 105px;
+    width: 300px;
+    height: 75px;
+    background-color: #FD6F0099;
+  }
+  
+  .title {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .title > span{
+    margin-left: 200px;
+    display: block;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .imageContainer {
+    position: relative;
+    max-width: 400px;
+    padding-left: 2rem;
+  }
+
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    width: 32px;
+    height: 32px;
+  }
+
+  .socialIcons > a{
+    margin-left: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content {
+      margin-bottom: 30px;
+    }
+  
+    .imageContainer {
+      max-width: 300px;
+    }
+  }
+  
