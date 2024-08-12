@@ -2,7 +2,7 @@ import styles from '../styles/Contact.module.css';
 
 const Contact = () => (
   <section className={styles.contact}>
-    <h2>Let's Design Together</h2>
+    <h2>Let&apos;s Design Together</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in.
       Aliquet donec morbi convallis pretium.
