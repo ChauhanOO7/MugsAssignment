@@ -1,6 +1,7 @@
 import styles from '../styles/HeroSection.module.css';
 import Image from 'next/image';
 import Button from '../components/Button';
+import Link from 'next/link';
 
 const HeroSection = () => (
   <section className={styles.hero}>
@@ -20,10 +21,10 @@ const HeroSection = () => (
       />
       <div className={styles.overlay}></div>
       <div className={styles.socialIcons}>
-        <a href="#"><img src="/images/facebook.png" alt="Facebook" /></a>
-        <a href="#"><img src="/images/twitter.png" alt="Twitter" /></a>
-        <a href="#"><img src="/images/instagram.png" alt="Instagram" /></a>
-        <a href="#"><img src="/images/linkedin.png" alt="LinkedIn" /></a>
+        <Link href="#"><img src="/images/facebook.png" alt="Facebook" /></Link>
+        <Link href="#"><img src="/images/twitter.png" alt="Twitter" /></Link>
+        <Link href="#"><img src="/images/instagram.png" alt="Instagram" /></Link>
+        <Link href="#"><img src="/images/linkedin.png" alt="LinkedIn" /></Link>
       </div>
     </div>
   </section>
