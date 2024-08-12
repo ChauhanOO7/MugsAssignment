@@ -2,6 +2,8 @@
 
 ## How to run Nextjs project on local machine:
 
+Firstly install Nodejs on your local System.
+
 ## Installation
 
 Follow these steps to set up and run the project locally:
